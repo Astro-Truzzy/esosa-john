@@ -1,6 +1,6 @@
 import React from "react";
 //icon
-import { } from "react-icons";
+import {} from "react-icons";
 //motion
 import { motion } from "framer-motion";
 //variants
@@ -40,13 +40,14 @@ const Services = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row">
           {/* text & image */}
-          < motion.div
-            variants={(fadeIn('right', 0.4))}
-            initial='hidden'
-            whileInView={'show'}
+          <motion.div
+            variants={fadeIn("right", 0.4)}
+            initial="hidden"
+            whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat mix-blend-lighten
-             mb-12 lg:mb-0">
+             mb-12 lg:mb-0"
+          >
             <h2 className="h2 text-accent mb-6"> What I Do </h2>
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance Front-end Developer, exploring full-stack
@@ -56,11 +57,12 @@ const Services = () => {
           </motion.div>
           {/* Services */}
           <motion.div
-            variants={(fadeIn('left', 0.5))}
-            initial='hidden'
-            whileInView={'show'}
+            variants={fadeIn("left", 0.5)}
+            initial="hidden"
+            whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1">
+            className="flex-1"
+          >
             {/* services list*/}
             <div>
               {services.map((service, index) => {
@@ -98,10 +100,10 @@ const Services = () => {
                 );
               })}
             </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </div>
-    </div >
   );
 };
 

@@ -7,6 +7,8 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../Variants";
+//link
+import { Link } from "react-scroll";
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -38,7 +40,6 @@ const About = () => {
           >
             <h2 className="h2 text-accent"> About Me </h2>
             <h3 className="h3 mb-4">
-              {" "}
               I'm a Freelance Front-end Developer, exploring full-stack
               opportunities, project-driven.
             </h3>
@@ -85,7 +86,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex gap-x-8 items-center">
-              <button className="btn btn-lg"> Contact Me </button>
+              <Link to="contact"> <button className="btn btn-lg"> Contact Me </button> </Link>
               <a href="#" className="text-gradient btn-link">
                 My Portfolio
               </a>
