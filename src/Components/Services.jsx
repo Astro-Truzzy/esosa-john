@@ -1,4 +1,3 @@
-import React from "react";
 //icon
 import {} from "react-icons";
 //motion
@@ -6,7 +5,7 @@ import { motion } from "framer-motion";
 //variants
 import { fadeIn } from "../Variants";
 //links
-import { Link } from "react-scroll";
+import {} from "react-scroll";
 //icons
 import { BsArrowUpRight } from "react-icons/bs";
 
@@ -50,7 +49,7 @@ const Services = () => {
           >
             <h2 className="h2 text-accent mb-6"> What I Do </h2>
             <h3 className="h3 max-w-[455px] mb-16">
-              I'm a Freelance Front-end Developer, exploring full-stack
+              I&apos;m a Freelance Front-end Developer, exploring full-stack
               opportunities, project-driven.
             </h3>
             <button className="btn btn-sm"> See My Work</button>
