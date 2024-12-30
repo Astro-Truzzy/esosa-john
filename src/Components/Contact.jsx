@@ -1,4 +1,3 @@
-import React from "react";
 //motion
 import { motion } from "framer-motion";
 //variants
@@ -25,8 +24,8 @@ const Contact = () => {
               >
                 Get In Touch
               </h4>
-              <h2 className="text-[45px] lg:text-6xl leading-none mb-12">
-                Let's Work <br /> Together!
+              <h2 className="text-[45px] lg:text-6xl leading-none mb-12 lg:ml-5">
+                Let&apos;s Work Together!
               </h2>
             </div>
           </motion.div>
@@ -40,7 +39,7 @@ const Contact = () => {
           pb-24 p-6 items-start"
           >
             <input
-              type="text"
+              type="email"
               className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white
            focus:border-accent transition-all"
               placeholder="Your Email"

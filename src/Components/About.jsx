@@ -1,4 +1,3 @@
-import React from "react";
 //countup
 import CountUp from "react-countup";
 //intersection observer
@@ -40,7 +39,7 @@ const About = () => {
           >
             <h2 className="h2 text-accent"> About Me </h2>
             <h3 className="h3 mb-4">
-              I'm a Freelance Front-end Developer, exploring full-stack
+              I&apos;m a Freelance Front-end Developer, exploring full-stack
               opportunities, project-driven.
             </h3>
             <p>
@@ -88,7 +87,7 @@ const About = () => {
             <div className="flex gap-x-8 items-center">
               <Link to="contact"> <button className="btn btn-lg"> Contact Me </button> </Link>
               <a href="#" className="text-gradient btn-link">
-                My Portfolio
+                My Company
               </a>
             </div>
           </motion.div>

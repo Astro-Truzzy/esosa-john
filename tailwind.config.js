@@ -25,8 +25,8 @@ export default {
       },
       backgroundImage: {
         site: "url('./src/assets/site-bg.jpg')",
-        about: "url('./src/assets/aboutme-removebg-preview-transformed.png')",
-        services: "url('./assets/services.png')",
+        about: "url('./src/assets/about1-removebg-preview-transformed.png')",
+        services: "url('./src/assets/from_pinterest-transformed.jpeg')",
       },
     },
   },

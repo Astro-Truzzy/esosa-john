@@ -1,8 +1,7 @@
-import React from "react";
 //image
 import Image from '../assets/Avatar-removebg-preview.png'
 //icons
-import { FaDribbble, FaGithub, } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaFacebook } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 //Typeanimation
 import { TypeAnimation } from "react-type-animation";
@@ -74,14 +73,17 @@ const Banner = () => {
             {/* Socials */}
             <motion.div variants={fadeIn('up', 0.7)} initial='hidden' whileInView={'show'}
             viewport={{once:false, amount: 0.7}} className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0">
-              <a href="#">
+              <a href="https://github.com/Astro-Truzzy" target='_blank'>
                 <FaGithub />
               </a>
-              <a href="#">
-                <FaDribbble />
-              </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/trust-williams" target='_blank'>
                 <CiLinkedin/>
+              </a>
+              <a href="https://www.instagram.com/_tarees.me/profilecard/?igsh=MXh3MXl2NHBld2lx" target='_blank'>
+                <FaInstagram />
+              </a>
+              <a href="https://www.facebook.com/share/18KTbW6jYt/?mibextid=LQQJ4d" target='_blank'>
+                <FaFacebook />
               </a>
             </motion.div>
           </div>
