@@ -53,7 +53,7 @@ const Work = () => {
                 className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all
               duration-500 z-50"
               >
-                <span className="text-gradient"> UI/UX Design</span>{" "}
+                <span className="text-gradient text-2xl"> UI/UX Design</span>{" "}
               </div>
               {/* title */}
               <div
@@ -92,7 +92,7 @@ const Work = () => {
                 className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all
               duration-500 z-50"
               >
-                <span className="text-gradient"> Innovation </span>{" "}
+                <span className="text-gradient text-2xl"> Innovation </span>
               </div>
               {/* title */}
               <div
@@ -123,7 +123,7 @@ const Work = () => {
                 className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all
               duration-500 z-50"
               >
-                <span className="text-gradient"> Development </span>{" "}
+                <span className="text-gradient text-2xl"> Development </span>{" "}
               </div>
               {/* title */}
               <div

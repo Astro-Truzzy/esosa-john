@@ -43,11 +43,16 @@ const About = () => {
               opportunities, project-driven.
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laboriosam aut maxime at totam explicabo et. Reprehenderit
-              nesciunt, optio quo voluptates blanditiis et alias doloremque
-              illo? Neque laboriosam quia placeat earum?
+            I’m a passionate frontend developer specializing in building responsive, user-friendly interfaces with React, 
+            JavaScript, and Tailwind CSS. My focus is on creating seamless and visually appealing web experiences that engage users
+             and leave a lasting impression. Currently, I’m expanding my skills into fullstack 
+             and smart contract development, exploring the exciting intersection 
+             of web development and blockchain technology. With a keen eye for detail and a drive to continuously learn,
+              I’ve worked on projects that prioritize clean design, efficient functionality, and a modern tech stack. I’m excited about pushing 
+              the boundaries of what’s possible and turning ideas into impactful digital solutions. Let’s connect 
+              and bring innovative projects to life!
             </p>
+            <br />
             {/* stats */}
             <div className="flex gap-x-6 lg:gap-x-10 mb-12">
               <div>

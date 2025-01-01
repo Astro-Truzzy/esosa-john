@@ -50,12 +50,9 @@ const Banner = () => {
             </motion.div>
             <motion.p variants={fadeIn('up', 0.5)} initial='hidden' whileInView={'show'}
             viewport={{once:false, amount: 0.7}} className="mb-8 max-w-lg mx-auto lg:mx-0">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum
-              a ipsam aut hic voluptates, quia animi beatae tempora voluptatibus
-              soluta eos labore aspernatur, ipsum iusto dolores sequi quae
-              maxime? Amet, dignissimos natus ea enim corporis eligendi quos
-              nostrum esse ducimus eos eum voluptates voluptas voluptatum
-              repudiandae. Aut, animi. Modi, natus?
+Welcome to my portfolio! I’m a frontend developer skilled in React, JavaScript, and Tailwind CSS, 
+with a growing passion for fullstack and smart contract development. 
+Explore my projects, and let’s create something amazing together!
             </motion.p>
             <motion.div variants={fadeIn('up', 0.6)} initial='hidden' whileInView={'show'}
             viewport={{once:false, amount: 0.7}} className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
