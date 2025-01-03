@@ -48,9 +48,10 @@ const Services = () => {
              mb-12 lg:mb-0"
           >
             <h2 className="h2 text-accent mb-6"> What I Do </h2>
-            <h3 className="h3 max-w-[455px] mb-16">
-              I&apos;m a Freelance Front-end Developer, exploring full-stack
-              opportunities, project-driven.
+            <h3 className="h3 max-w-[455px] mb-16 text-justify">
+            I design and build modern, responsive web interfaces, creating seamless user experiences. As I expand into fullstack and smart contract development,
+             I’m combining creativity with technical expertise to 
+             deliver innovative and impactful digital solutions.
             </h3>
             <button className="btn btn-sm"> See My Work</button>
           </motion.div>

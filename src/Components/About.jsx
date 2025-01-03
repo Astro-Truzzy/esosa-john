@@ -42,7 +42,7 @@ const About = () => {
               I&apos;m a Freelance Front-end Developer, exploring full-stack
               opportunities, project-driven.
             </h3>
-            <p>
+            <p className="text-justify aboutme">
             I’m a passionate frontend developer specializing in building responsive, user-friendly interfaces with React, 
             JavaScript, and Tailwind CSS. My focus is on creating seamless and visually appealing web experiences that engage users
              and leave a lasting impression. Currently, I’m expanding my skills into fullstack 
