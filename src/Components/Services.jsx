@@ -14,21 +14,21 @@ const services = [
   {
     name: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id libero sed neque efficitur auctor vel at nunc. Nullam quis diam vel nunc consectetur dignissim.",
+      "I create intuitive and visually appealing designs that prioritize user experience, ensuring every interface is both functional and engaging.",
     link: "Learn more",
   },
 
   {
     name: "Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id libero sed neque efficitur auctor vel at nunc. Nullam quis diam vel nunc consectetur dignissim.",
+      "I build efficient, scalable, and responsive websites and applications using modern technologies to bring ideas to life.",
     link: "Learn more",
   },
 
   {
     name: "Innovation",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id libero sed neque efficitur auctor vel at nunc. Nullam quis diam vel nunc consectetur dignissim.",
+      "At Ridely, I drive innovation by creating efficient, user-centered solutions that streamline parcel pickup and delivery, leveraging technology to enhance convenience and reliability.",
     link: "Learn more",
   },
 ];

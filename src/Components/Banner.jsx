@@ -24,15 +24,15 @@ const Banner = () => {
           {/* text */}
           <div className="flex-1 text-center font-secondary lg:text-left">
             <motion.h1 variants={fadeIn('right', 0.3)} initial='hidden' whileInView={'show'}
-            viewport={{once:false, amount: 0.7}} className="text-[55px] font-bold leading-[0.8] lg:text-[110px]">
+            viewport={{once:false, amount: 0.7}} className="text-[50px] font-bold leading-[0.8] lg:text-[90px]">
               TRUST <span> WILLIAMS </span>
             </motion.h1>
             <motion.div variants={fadeIn('left', 0.4)} initial='hidden' whileInView={'show'}
             viewport={{once:false, amount: 0.7}}
-              className="mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold
+              className="mb-6 text-[36px] lg:text-[50px] font-secondary font-semibold
    uppercase leading-[1]"
             >
-              <span className="text-white mt-4"> I am </span>
+              <span className="text-white mt-4 writeup"> I am </span>
               <TypeAnimation
                 sequence={[
                   "a Developer",
