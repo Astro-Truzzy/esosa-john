@@ -19,6 +19,15 @@ export default {
       xl: '1200px',
     },
     extend: {
+      animation: {
+        'pulse-danger': 'pulse-danger 1s infinite',
+      },
+      keyframes: {
+        'pulse-danger': {
+          '0%, 100%': { transform: 'scale(1)', color: '#ff0000' }, // Red at normal scale
+          '50%': { transform: 'scale(1.2)', color: '#ff8800' }, // Orange at slightly larger scale
+        },
+      },
       colors: {
         primary: '#0a0a0a',
         accent: '#B809C3',
@@ -31,4 +40,4 @@ export default {
     },
   },
   plugins: [],
-};
+}
