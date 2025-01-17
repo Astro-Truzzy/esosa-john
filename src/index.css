@@ -4,4 +4,37 @@
 
 *{
   font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight:500;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5)
+  /* text-shadow: 0 0 8px rgba(255, 255, 255, 0.5); */
 }
+
+*{
+  animation-duration: 1s;
+  animation-delay: 1ms;
+}
+
+button{
+  height: 4.5rem;
+  width: 8rem;
+  border-radius: 0.5rem;
+  animation: normal;
+  text-decoration: none;
+  -moz-box-shadow: 10px 10px 129px 0px rgba(0, 0, 0, 0.19);
+            -webkit-box-shadow: 10px 10px 129px 0px rgba(0, 0, 0, 0.19);
+            box-shadow: 10px 10px 129px 0px rgba(0, 0, 0, 0.19);
+  outline: none;
+}
+
+button:hover{
+  height: 5rem;
+  width: 10rem;
+  transition: 1s ease-in-out;
+  letter-spacing: 0.3rem;
+}
+
+.bg-site{
+  background-blend-mode: multiply;
+}
+
+
