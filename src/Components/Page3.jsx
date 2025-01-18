@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
+
 const No = "NO";
 const Yes = "YES";
 
 const Page3 = () => {
   return (
     <>
-      <div className="flex items-center justify-center mx-auto">
-        <div className=" h-[20rem] w-[40rem] mt-[10rem]">
-          <p className="text-black text-[1.8rem] font-tertiary text-center">
+      <div className="flex items-center justify-center mx-auto px-4">
+        <div className="w-full max-w-lg mt-20">
+          <p className="text-black text-xl md:text-2xl font-tertiary text-center">
             <i>You REALLY Want This.</i>
             <i>
               <b> Great.</b>
@@ -16,41 +17,39 @@ const Page3 = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-center w-full">
-        <div className="h-[13rem]  w-[45rem] relative bottom-[10rem]">
+      
+      <div className="flex items-center justify-center w-full px-4">
+        <div className="w-full max-w-xl mt-10">
           <b>
-            <h2 className="text-black text-[2.3rem] text-center">
-              {" "}
-              Can you spare at least 2 hours daily to work on your business?{" "}
+            <h2 className="text-black text-lg md:text-2xl text-center">
+              Can you spare at least 2 hours daily to work on your business?
             </h2>
           </b>
         </div>
       </div>
-      <div className="relative bottom-[8rem] sm:top-4rem">
-        <center>
-          {" "}
-          <p> CHOOSE YOUR ANSWER BELOW </p>{" "}
-        </center>
+      
+      <div className="mt-8 text-center">
+        <p>CHOOSE YOUR ANSWER BELOW</p>
       </div>
-      <div className="flex align-center justify-center w-full">
-        <div className="flex align-center justify-center gap-[8rem] relative bottom-[6rem] w-full ">
-          <Link to='/pageno'> <button className="bg-red-700 text-white hover:bg-red-500 button">
-            {" "}
-            {No}{" "}
-          </button> </Link>
+      
+      <div className="flex items-center justify-center w-full mt-6">
+        <div className="flex items-center justify-center gap-8 w-full">
+          <Link to="/pageno">
+            <button className="bg-red-700 text-white hover:bg-red-500 px-4 py-2 rounded">
+              {No}
+            </button>
+          </Link>
           <Link to="/page4">
-            {" "}
-            <button className="bg-green-700 text-white hover:bg-green-500 button">
-              {" "}
-              {Yes}{" "}
-            </button>{" "}
+            <button className="bg-green-700 text-white hover:bg-green-500 px-4 py-2 rounded">
+              {Yes}
+            </button>
           </Link>
         </div>
       </div>
-      <center>
+
+      <center className="mt-10">
         <p>
-          {" "}
-          Copyright Esosa John&apos;s Foundation 2025. All rights reserved.{" "}
+          Copyright Esosa John&apos;s Foundation 2025. All rights reserved.
         </p>
       </center>
     </>

@@ -1,48 +1,39 @@
 const Pageno = () => {
   return (
-    <div className="container mx-auto">
-      <div className=" p-[5rem] fixed flex-1 items-center justify-center top-[12rem] text-left">
-        <p>
+    <div className="container mx-auto px-4 py-10">
+      <div className="flex items-center justify-center text-left mt-24">
+        <div className="w-full max-w-2xl">
           <blockquote>
-            <p className="text-[22px]">
-              {" "}
-              Sorry, unfortunately you&apos;re not a good fit for this program.{" "}
+            <p className="text-lg md:text-xl mb-6">
+              Sorry, unfortunately you&apos;re not a good fit for this program.
             </p>
-            <br />
-            <p className="text-[32px]">
-              {" "}
-              Below is a list of other legitimate money making programs you
-              might be interested in.{" "}
+            <p className="text-2xl md:text-3xl mb-8">
+              Below is a list of other legitimate money-making programs you
+              might be interested in.
             </p>
-            <br />
-            <br />
-            <div className="relative">
-            <a href="" className="a1">
-              {" "}
-              {'>>'} How to Get Paid As Much As $10,000 Monthly By Amazon{" "}
-            </a><br />
-            <a href="" className="a1">
-              {" "} <br />
-               {'>>'} How to Bank N2m yearly using just your whatsapp{" "}
-            </a><br /><br />
-            <a href="" className="a1">
-              {" "}
-              {'>>'} How You Can Use Facebook Ads With Your Smartphone to Bank Atleast
-              300k monthly
-            </a> <br />
-            <a href="" className="a1">
-              {" "} <br />
-              {'>>'} The Complete Importation Business Reloaded
-            </a>
+            <div className="space-y-6">
+              <a href="#" className="block text-blue-600 hover:underline">
+                {'>>'} How to Get Paid As Much As $10,000 Monthly By Amazon
+              </a>
+              <a href="#" className="block text-blue-600 hover:underline">
+                {'>>'} How to Bank N2m yearly using just your WhatsApp
+              </a>
+              <a href="#" className="block text-blue-600 hover:underline">
+                {'>>'} How You Can Use Facebook Ads With Your Smartphone to Bank At least
+                300k monthly
+              </a>
+              <a href="#" className="block text-blue-600 hover:underline">
+                {'>>'} The Complete Importation Business Reloaded
+              </a>
             </div>
-
-<div className="relative top-[15rem]">
-<center> <p> Copyright Tony Anierobi 2023. All rights reserved. </p> </center>
-</div>
-           
-            
           </blockquote>
-        </p>
+        </div>
+      </div>
+
+      <div className="mt-16">
+        <center>
+          <p>Copyright Tony Anierobi 2023. All rights reserved.</p>
+        </center>
       </div>
     </div>
   );
