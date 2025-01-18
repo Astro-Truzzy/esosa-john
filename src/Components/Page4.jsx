@@ -22,11 +22,11 @@ const Page4 = () => {
         <div className="w-full max-w-xl mt-10">
           <b>
             <h2 className="text-white text-lg md:text-2xl text-center">
-              But... Are you willing to invest{" "}
+              But... Are you willing to spend{" "}
               <span>
-                <u>at least N20,000</u>
+                <u>at most N15,000</u>
               </span>{" "}
-              to start this new business?
+              to start this business model?
             </h2>
           </b>
         </div>

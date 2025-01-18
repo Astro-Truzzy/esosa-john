@@ -18,18 +18,17 @@ const Last = () => {
               the legitimate money-making opportunity that can change your
               life.
               <br />
-              <br />
-              Don&apos;t rush.
+              
             </blockquote>
           </i>
         </p>
         <div className="mt-8">
-          <button className="bg-green-500 hover:bg-green-600 text-white text-lg font-medium py-3 px-6 rounded-md transition-all duration-300">
+          <button className="lastb bg-green-500 hover:bg-green-600 text-white text-lg font-medium py-3 px-6 rounded-md transition-all duration-300">
             <a
               href="https://chat.whatsapp.com/F003wpNaVxQHAeU33RBPnU"
               className="myref"
             >
-              Click to Proceed
+              Click to Join the Training
             </a>
           </button>
         </div>

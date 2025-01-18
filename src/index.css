@@ -51,6 +51,9 @@
 .lastb{
   border-radius: 12px;
   transition: 1s ease-in-out;
+  height: 7rem;
+  width: 11rem;
+
 }
 
 .a1{

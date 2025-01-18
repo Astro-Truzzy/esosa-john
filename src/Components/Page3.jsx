@@ -22,7 +22,7 @@ const Page3 = () => {
         <div className="w-full max-w-xl mt-10">
           <b>
             <h2 className="text-white text-lg md:text-2xl text-center">
-              Can you spare at least 2 hours daily to work on your business?
+              Can you spare at least 2 hours daily to work on this business?
             </h2>
           </b>
         </div>
