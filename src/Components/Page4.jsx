@@ -5,7 +5,7 @@ const Yes = "YES";
 const Page4 = () => {
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mx-auto">
         <div className=" h-[20rem] w-[40rem] mt-[10rem]">
           <p className="text-black text-[1.8rem] font-tertiary text-center">
             <i>
@@ -20,7 +20,7 @@ const Page4 = () => {
           <b>
             <h2 className="text-black text-[2.3rem] text-center">
               {" "}
-              But...Are you willing to invest{" "}
+              But... Are you willing to invest{" "}
               <span>
                 <u>at least N20,000</u>
               </span>{" "}
@@ -37,13 +37,13 @@ const Page4 = () => {
       </div>
       <div className="flex align-center justify-center w-full">
         <div className="flex align-center justify-center gap-[8rem] relative bottom-[6rem] w-full ">
-          <button className="bg-red-700 text-white hover:bg-red-500">
+          <Link to='/pageno'> <button className="bg-red-700 text-white hover:bg-red-500 button">
             {" "}
             {No}{" "}
-          </button>
+          </button> </Link>
           <Link to="/page5">
             {" "}
-            <button className="bg-green-700 text-white hover:bg-green-500">
+            <button className="bg-green-700 text-white hover:bg-green-500 button">
               {" "}
               {Yes}{" "}
             </button>{" "}

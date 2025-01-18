@@ -1,7 +1,6 @@
 import '../Components/css/Loader.css';
-let number = 1
 // eslint-disable-next-line react/prop-types
-const LoadingBar = ({ progress }) => {
+const LoadingBar = ({ progress, number }) => {
   return (
     <>
       <div className='bg-slate-500 h-[3rem]'>

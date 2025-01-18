@@ -1,10 +1,10 @@
 const No = "NO";
 const Yes = "YES";
-
+import { Link } from "react-router-dom";
 const Page5 = () => {
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center mx-auto">
         <div className=" h-[20rem] w-[40rem] mt-[10rem]">
           <p className="text-black text-[1.8rem] font-tertiary">
             <i>
@@ -42,14 +42,16 @@ const Page5 = () => {
       </div>
       <div className="flex align-center justify-center w-full">
         <div className="flex align-center justify-center gap-[8rem] relative top-[rem] w-full ">
-          <button className="bg-red-700 text-white hover:bg-red-500">
+          <Link to='/pageno'>
+          <button className="bg-red-700 text-white hover:bg-red-500 button">
             {" "}
             {No}{" "}
           </button>
-          <button className="bg-green-700 text-white hover:bg-green-500">
+          </Link>
+         <Link to='/Last'> <button className="bg-green-700 text-white hover:bg-green-500 button">
             {" "}
             {Yes}{" "}
-          </button>
+          </button> </Link> 
         </div>
       </div>
       <div className="relative top-[1rem]">

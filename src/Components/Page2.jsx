@@ -5,7 +5,7 @@ const Yes = "YES";
 const Page2 = () => {
   return (
     <>
-      <div className="flex items-center justify-center" id="Page2">
+      <div className="flex items-center justify-center mx-auto" id="Page2" >
         <div className=" h-[20rem] w-[40rem] mt-[10rem]">
           <p className="text-black text-[1.8rem] font-tertiary text-center">
             <b> OKAY! </b>
@@ -35,11 +35,13 @@ const Page2 = () => {
       </div>
       <div className="flex align-center justify-center w-full">
         <div className="flex align-center justify-center gap-[8rem] relative bottom-[8rem] w-full ">
-          <button className="bg-red-700 text-white hover:bg-red-500">
+         <Link to='/pageno'>
+         <button className="bg-red-700 text-white hover:bg-red-500 button">
             {No}
           </button>
+         </Link> 
           <Link to="/page3">
-            <button className="bg-green-700 text-white hover:bg-green-500">
+            <button className="bg-green-700 text-white hover:bg-green-500 button">
               {" "}
               {Yes}
             </button>
