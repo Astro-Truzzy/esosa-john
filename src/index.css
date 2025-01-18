@@ -5,7 +5,7 @@
 *{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-weight:500;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5)
+  /* text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5) */
   /* text-shadow: 0 0 8px rgba(255, 255, 255, 0.5); */
 }
 
@@ -15,8 +15,8 @@
 } */
 
 .button{
-  height: 4.5rem;
-  width: 8rem;
+  height: 4rem;
+  width: 7rem;
   border-radius: 0.5rem;
   animation: normal;
   text-decoration: none;
@@ -29,13 +29,14 @@
 
 .button:hover{
   height: 5rem;
-  width: 10rem;
+  width: 9rem;
   transition: 1s ease-in-out;
   letter-spacing: 0.3rem;
 }
 
 .mybg{
-  background-image: url('./assets/site.jpg');
+  /* background-image: url('./assets/site.jpg'); */
+  background-color:rgb(47, 79, 79);
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
