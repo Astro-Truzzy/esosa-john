@@ -1,5 +1,7 @@
 const No = "NO";
 const Yes = "YES";
+import Img3 from "../assets/IMG-20250117-WA0037.jpg"
+import Img4 from "../assets/IMG-20250117-WA0038.jpg"
 import { Link } from "react-router-dom";
 const Page5 = () => {
   return (
@@ -53,7 +55,16 @@ const Page5 = () => {
             {Yes}{" "}
           </button> </Link> 
         </div>
+
+
+        
       </div>
+
+      <div className="overflow-visible relative mt-[5rem] flex justify-evenly">
+        <img src={Img3} alt="" className="Img1"/>
+        <img src={Img4} alt=""className="Img1"/>
+</div>
+
       <div className="relative top-[1rem]">
         {" "}
         <center>

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 const No = "NO";
 const Yes = "YES";
+import Img2 from "../assets/IMG-20250117-WA0036.jpg"
 
 const Page4 = () => {
   return (
@@ -50,6 +51,9 @@ const Page4 = () => {
           </Link>
         </div>
       </div>
+      <div className="overflow-visible relative mt-[5rem] flex justify-center">
+        <img src={Img2} alt="" className="Img1"/>
+        </div>
       <center>
         <p>
           {" "}

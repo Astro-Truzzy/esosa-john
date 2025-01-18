@@ -9,10 +9,10 @@
   /* text-shadow: 0 0 8px rgba(255, 255, 255, 0.5); */
 }
 
-*{
+/* *{
   animation-duration: 1s;
   animation-delay: 1ms;
-}
+} */
 
 .button{
   height: 4.5rem;
@@ -55,4 +55,8 @@
 .a1{
   text-decoration: underline;
   font-size: 1.3em;
+}
+.Img1{
+  width: 500px;
+  height: 600px;
 }
