@@ -48,7 +48,7 @@ const Page1 = () => {
             </button>
           </Link>
           <Link to="/page2">
-            <button className="bg-green-700 text-white hover:bg-green-500 px-4 button py-2 rounded">
+            <button className="bg-green-600 text-white hover:bg-green-500 px-4 button py-2 rounded">
               {Yes}
             </button>
           </Link>
