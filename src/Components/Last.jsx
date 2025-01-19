@@ -33,7 +33,7 @@ const Last = () => {
               href="https://chat.whatsapp.com/F003wpNaVxQHAeU33RBPnU"
               className="myref"
             >
-              Click to Join the Training
+              Click Here to Join the Training
             </a>
           </button>
         </div>
