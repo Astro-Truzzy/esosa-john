@@ -1,4 +1,9 @@
 const Last = () => {
+  const handleButtonClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'CustomEvent', { eventParam: 'value' });
+    }
+  };
   return (
     <div className="flex items-center justify-center min-h-screen px-4">
       <div className="max-w-xl bg-white shadow-md rounded-lg p-6 text-center">
@@ -23,7 +28,7 @@ const Last = () => {
           </i>
         </p>
         <div className="mt-8">
-          <button className="lastb bg-green-500 hover:bg-green-600 text-white text-lg font-medium py-3 px-6 rounded-md transition-all duration-300">
+          <button onClick={handleButtonClick} className="lastb bg-green-500 hover:bg-green-600 text-white text-lg font-medium py-3 px-6 rounded-md transition-all duration-300">
             <a
               href="https://chat.whatsapp.com/F003wpNaVxQHAeU33RBPnU"
               className="myref"

@@ -6,6 +6,11 @@ const No = "NO";
 const Yes = "YES";
 
 const Page5 = () => {
+  const handleButtonClick = () => {
+    if (window.fbq) {
+      window.fbq('track', 'CustomEvent', { eventParam: 'value' });
+    }
+  };
   return (
     <>
       <div className="flex items-center justify-center mx-auto px-4">
@@ -46,19 +51,19 @@ const Page5 = () => {
       <div className="flex items-center justify-center w-full mt-6">
         <div className="flex items-center justify-center gap-8 w-full">
           <Link to="/pageno">
-            <button className="bg-red-700 text-white hover:bg-red-500 px-4 py-2 button rounded">
+            <button onClick={handleButtonClick} className="bg-red-700 text-white hover:bg-red-500 px-4 py-2 button rounded">
               {No}
             </button>
           </Link>
           <Link to="/Last">
-            <button className="bg-green-600 text-white hover:bg-green-500 px-4 py-2 button rounded">
+            <button onClick={handleButtonClick} className="bg-green-600 text-white hover:bg-green-500 px-4 py-2 button rounded">
               {Yes}
             </button>
           </Link>
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 gap-4 flex-col">
+      <div className="flex lg:justify-evenly mt-10 gap-4 flex-col lg:flex-row">
         <img src={Img3} alt="Visual 1" className="w-full max-w-sm rounded"/>
         <img src={Img4} alt="Visual 2" className="w-full max-w-sm rounded"/>
       </div>

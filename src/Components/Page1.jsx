@@ -4,6 +4,11 @@ import img1 from "../assets/IMG-20250117-WA0035.jpg";
 const Page1 = () => {
   const No = "NO";
   const Yes = "YES";
+    const handleButtonClick = () => {
+      if (window.fbq) {
+        window.fbq('track', 'CustomEvent', { eventParam: 'value' });
+      }
+    };
   
   return (
     <>
@@ -43,12 +48,12 @@ const Page1 = () => {
       <div className="flex items-center justify-center w-full mt-6">
         <div className="flex items-center justify-center gap-8">
           <Link to="/pageno">
-            <button className="bg-red-700 text-white hover:bg-red-500 px-4 py-2 button rounded">
+            <button onClick={handleButtonClick} className="bg-red-700 text-white hover:bg-red-500 px-4 py-2 button rounded">
               {No}
             </button>
           </Link>
           <Link to="/page2">
-            <button className="bg-green-600 text-white hover:bg-green-500 px-4 button py-2 rounded">
+            <button onClick={handleButtonClick} className="bg-green-600 text-white hover:bg-green-500 px-4 button py-2 rounded">
               {Yes}
             </button>
           </Link>
