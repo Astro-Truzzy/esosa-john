@@ -63,7 +63,7 @@ const Page5 = () => {
         </div>
       </div>
 
-      <div className="flex lg:justify-evenly mt-10 gap-4 flex-col lg:flex-row">
+      <div className="flex lg:justify-evenly mt-10 gap-4 flex-col lg:flex-row px-4">
         <img src={Img3} alt="Visual 1" className="w-full max-w-sm rounded"/>
         <img src={Img4} alt="Visual 2" className="w-full max-w-sm rounded"/>
       </div>

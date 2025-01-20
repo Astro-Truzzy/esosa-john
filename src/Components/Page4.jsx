@@ -56,7 +56,7 @@ const Page4 = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10">
+      <div className="flex justify-center mt-10 px-4">
         <img src={Img2} alt="Related visual" className="w-full max-w-md rounded"/>
       </div>
 

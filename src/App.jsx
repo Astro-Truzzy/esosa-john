@@ -11,15 +11,6 @@ import Last from './Components/Last';
 import Pageno from './Components/Pageno';
 
 const App = () => {
-
-  
-  
-  
-  // // Call the function to log the path whenever needed
-  // useEffect(() => {
-    //   logCurrentPath();
-    // }, [location]);
-    
     const [number, setNumber] = useState(0);
     const [progress, setProgress] = useState(0);
     const location = useLocation();

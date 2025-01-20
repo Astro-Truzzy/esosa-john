@@ -2,17 +2,19 @@
     position: fixed;
     top: 5rem;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 2rem;
     /* background-color: #94a3b8; */
     z-index: 9999;
-    padding: 1rem;
   }
   
   .loading-bar {
     height: 100%;
     background-color: #4caf50;
-    animation: loadProgress 0.5s ease-in-out;
+    animation: 0.5s ease-in-out;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
   }
   
   @keyframes loadProgress {
@@ -23,3 +25,4 @@
       width: 100%;
     }
   }
+ 
